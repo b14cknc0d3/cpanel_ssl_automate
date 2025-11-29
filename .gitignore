@@ -1,0 +1,38 @@
+# Deployment configuration (contains sensitive info)
+.deploy.config
+
+# Environment files (may contain credentials)
+.env
+.env.local
+.env.production
+
+# SSH keys
+*.pem
+*.key
+*_key
+*_priv*
+*_pub*
+
+# Logs
+*.log
+ssl-automation.log
+
+# acme.sh directory (created on server)
+.acme.sh/
+
+# SSL certificates
+*.crt
+*.cer
+*.csr
+*.pem
+ssl-certs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
